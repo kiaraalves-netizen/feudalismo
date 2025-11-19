@@ -3,6 +3,7 @@ body {
     background: rgb(8, 42, 117);
     margin: 0px;
     font-family: "Instrument Serif";
+    margin-bottom: 100px;
 }
 
 header {
@@ -29,9 +30,6 @@ h1{
 p{
     font-size: 20px;
 }
-img{
-    height: 200px;
-}
 
 .categoria-videos{
     display: flex;
@@ -41,4 +39,17 @@ img{
 .categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+   opacity: 0.5;
+   height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid rgba(51, 141, 153, 0.452);
+}
+.categoria h2{
+    color: blueviolet;
 }
